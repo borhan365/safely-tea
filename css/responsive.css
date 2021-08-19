@@ -86,7 +86,7 @@
     }
     .footer-section{
         margin-top: 60px;
-        height: 1036px;
+        height: 990px;
     }
     .footer-logo-thumb {
         position: relative;
@@ -102,8 +102,9 @@
         background-position: right;
         height: 240px;
         position: absolute;
-        right: -21px;
-        top: -107px;
+        right: 0px;
+        top: -121px;
+        width: 180px;
     }
     .footer-box{
         min-height: 230px;
