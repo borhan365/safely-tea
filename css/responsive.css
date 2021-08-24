@@ -81,6 +81,17 @@
     .blog-section{
         padding: 0px;
     }
+
+    /* team */
+    .team-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
+    .team-bg{
+        height: 140px;
+    }
+
     .footer-wrapper{
         flex-direction: column;
     }

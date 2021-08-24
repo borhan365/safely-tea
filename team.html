@@ -4,14 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/tea/item.png" type="image/gif" sizes="20x20">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./css/animate.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Safely Tea</title>
 </head>
 <body>
-   
+
+    <!-- Mobile header menu -->
+    <section class="mobile-header-section desktop-hide">
+        <div class="container">
+            <div class="mobile-header-wrapper flex">
+                <!-- Logo -->
+            <div class="mobile-logo-wrapper">
+                <a href="index.html">
+                    <img class="wow animate__animated animate__fadeInDown" src="./images/safely-tea.png" alt="">
+                </a>
+            </div>
+                <!-- Navigation -->
+                <div class="menu-wrapper wow animate__animated animate__fadeInDown">
+                    <ul>
+                        <li id="menuBtn"><a href="#">
+                            <img src="./images/icons/menu.png" alt="">
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- sidebar -->
     <div id="sidebar" class="sidebar-wrapper" style="background-image:linear-gradient(to top, #0000006b , #ffffff), url(./images/tea/footer-bg.jpg);">
 
@@ -343,14 +364,14 @@
     <footer class="footer-section" style="background-image:linear-gradient(to top, #0000006b , #ffffff), url(./images/tea/footer-bg.jpg);">
 
         <!-- bg -->
-        <div class="footer-bg wow animate__animated animate__fadeInDown" style="background-image:url(./images/tea/green.png);"></div>
+        <div class="footer-bg" style="background-image:url(./images/tea/green.png);"></div>
         <div class="container">
 
             <!-- footer wrapper -->
             <div class="footer-wrapper">
 
                 <!-- Item -->
-                <div class="footer-box wow animate__animated animate__fadeInUp">
+                <div class="footer-box">
                     <div class="footer-logo-thumb">
                         <a href="index.html">
                             <img src="./images/safely-tea.png" alt="">
@@ -364,7 +385,7 @@
                 </div>
 
                 <!-- Item -->
-                <div class="footer-box wow animate__animated animate__fadeInUp">
+                <div class="footer-box">
                     <div class="footer-title">
                         <h2>About Us</h2>
                         <div class="footer-underline"></div>
@@ -382,7 +403,7 @@
                 </div>
 
                 <!-- Item -->
-                <div class="footer-box wow animate__animated animate__fadeInUp">
+                <div class="footer-box">
                     <div class="footer-title">
                         <h2>Important Links</h2>
                         <div class="footer-underline"></div>
@@ -400,7 +421,7 @@
                 </div>
 
                 <!-- Item -->
-                <div class="footer-box wow animate__animated animate__fadeInUp">
+                <div class="footer-box">
                     <div class="footer-title">
                         <h2>Office Address</h2>
                         <div class="footer-underline"></div>
@@ -441,6 +462,7 @@
     </footer>
     <!-- Footer -->
     
+
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/anime.min.js"></script>
     <script src="./js/wow.min.js"></script>
