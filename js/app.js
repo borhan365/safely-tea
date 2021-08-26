@@ -15,6 +15,11 @@ cancelBtn.addEventListener('click', () => {
   sidebar.classList.remove('active');
 })
 
+const mobileMenuBtn = document.getElementById("mobileMenuBtn"); 
+mobileMenuBtn.addEventListener("click", () => {
+  const sidebar = document.getElementById('sidebar');
+  sidebar.classList.add('active');
+})
 
 // Swiper slider home page product slider
 var ProductSlider = new Swiper(".productSlider", {
