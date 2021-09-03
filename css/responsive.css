@@ -18,8 +18,10 @@
         display: none;
     }
     .hero-title h1 {
-        font-size: 10px;
+        font-size: 55px !important;
         text-align: center;
+        margin: 50px; 
+
     }
     .bg {
         height: 196px;
@@ -80,6 +82,22 @@
     }
     .blog-section{
         padding: 0px;
+    }
+
+    /* Campaign */
+    .campaign-title h2::before {
+        font-size: 56px;
+        left: 36px;
+        right: 78px;
+        top: -20px;
+        text-shadow: unset;
+    }
+    .campaign-title{
+        margin-bottom: 15px;
+    }
+    .campaign-section {
+        margin-bottom: 10px;
+        margin-top: 30px;
     }
 
     /* team */

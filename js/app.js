@@ -21,10 +21,26 @@ mobileMenuBtn.addEventListener("click", () => {
   sidebar.classList.add('active');
 })
 
+// popup modal
+
+// add class
+const getPlayBtn = document.getElementById("tvcBtn")
+getPlayBtn.addEventListener('click', () => {
+  const modal = document.getElementById("modal")
+  modal.classList.add("active")
+})
+
+// remove class
+const getCancelBtn = document.getElementById("tvcCancelBtn")
+getCancelBtn.addEventListener('click', () => {
+  const modal = document.getElementById("modal")
+  modal.classList.remove("active")
+})
+
 // Swiper slider home page product slider
 var ProductSlider = new Swiper(".productSlider", {
     slidesPerView: 2,
-    spaceBetween: 5,
+    spaceBetween: 20,
     loop: true,
     pagination: {
       el: ".swiper-pagination",
@@ -32,15 +48,40 @@ var ProductSlider = new Swiper(".productSlider", {
     breakpoints: {
         640: {
         slidesPerView: 2,
-        spaceBetween: 10,
+        spaceBetween: 20,
         },
         767: {
         slidesPerView: 2,
-        spaceBetween: 10,
+        spaceBetween: 20,
         },
         1024: {
-        slidesPerView: 4,
-        spaceBetween: 0,
+        slidesPerView: 5,
+        spaceBetween: 20,
         },
     }
   });
+
+  // Campaign slider
+  var campaignSlider = new Swiper(".campaignSlider", {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+          640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          },
+          767: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          },
+          1024: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+          },
+      }
+    });
