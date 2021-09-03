@@ -63,7 +63,7 @@ var ProductSlider = new Swiper(".productSlider", {
 
   // Campaign slider
   var campaignSlider = new Swiper(".campaignSlider", {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 20,
       loop: true,
       navigation: {
@@ -72,7 +72,7 @@ var ProductSlider = new Swiper(".productSlider", {
       },
       breakpoints: {
           640: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 20,
           },
           767: {
